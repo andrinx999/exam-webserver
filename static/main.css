@@ -5,7 +5,8 @@
 }
 
 body {
-    background: #eeeeee;
+    background-image: url("https://i.redd.it/rc30vua0iaz51.png");
+    background-size: cover;
 }
 
 .navbar {
@@ -16,7 +17,7 @@ body {
 #answers {
     margin-top: 2cm;
 }
-h1 {border: 2px solid green;
+h1 {color: rgba(255, 255, 255, 0.934);
     text-align: center;
     margin: 20px;
     padding: 15px;
@@ -24,16 +25,22 @@ h1 {border: 2px solid green;
 #answers-list {
     margin-left: 20px;
 }
+h2 {color: #ffffff;
+margin-top: 30px;
+margin-left: 50px;
+margin-right: 400px;
+background-color: black;}
 
-ol li {
-    margin-top: 5px;
+
+a  {color: black;
+font-weight: bold;
 }
+p {color: white;
+margin-left: 50px;
+padding-top: 15px;
+margin-right: 400px;
+background-color: black;}
 
-td {
-    padding: 5px;
-}
-
-/* Implement your changes below this line. Leave the code above as is. */
 
 
 .nav-item {
@@ -43,16 +50,13 @@ td {
 .nav-link {
     text-decoration: none;
 }
-.navbar { background-color: green;
+.navbar { background-color: rgb(247, 237, 123);
 padding-top: 20px;
 padding-bottom: 20px;
 }
 
-#content {background-color: white;
-margin: 30px 100px 30px 100px;
-padding: 15px;}
+#content 
 
-
-.nav-link {color: white;
+.nav-link {color: rgba(0, 0, 0, 0.532);
     font-weight: bold;
 }
